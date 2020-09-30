@@ -6,6 +6,15 @@ test("Exercise 10", () => {
   expect(makeIntoTitle("a bb ccc dddd e ff ggg")).toBe(
     "A Bb Ccc Dddd E Ff Ggg"
   );
+  expect(makeIntoTitle("how to code, part one")).toBe(
+    "How To Code, Part One"
+  );
+  expect(makeIntoTitle("whats up old friend")).toBe(
+    "Whats Up Old Friend"
+  );
+  expect(makeIntoTitle("it is a rainy day")).toBe(
+    "It Is A Rainy Day"
+  );
   // add more tests here...
 });
 

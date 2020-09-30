@@ -4,6 +4,9 @@ const repeat = require("../fundamentals-3.7");
 // Write 3 more expect functions to test the function you just wrote.
 test("Exercise 7", () => {
   expect(repeat(["foo", 3])).toBe("foofoofoo");
+  expect(repeat(["yo", 2])).toBe("yoyo");
+  expect(repeat(["brad", 4])).toBe("bradbradbradbrad");
+  expect(repeat(["city", 3])).toBe("citycitycity");
   // add more tests here...
 });
 

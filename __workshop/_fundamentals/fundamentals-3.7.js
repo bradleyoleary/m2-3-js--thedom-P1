@@ -13,7 +13,13 @@
 
 function repeat(arr) {
   // Your code here
-}
+  let newStr = arr[0].repeat(arr[1]);
+  if (typeof arr[0] !== "string" || typeof arr[1] !== "number" || arr[1] <= 0) {
+    return undefined
+  } else {
+    return newStr
+  }
+} 
 
 // Part 2 - Test
 // --------------
